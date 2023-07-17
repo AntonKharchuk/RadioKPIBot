@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RadioKPIBot.DataAccess.Repository.IRepository
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork
     {
         IAdminRepository Admin { get; }
 
